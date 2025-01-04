@@ -7,7 +7,7 @@ const ButtonCounter = () => {
         <button onClick={() => {
           setCount(count + 1)
         }}>InCounr</button>
-        <p>{count}</p>
+        <p>`Button clicked {count} times`</p>
     </div>
   )
 }
